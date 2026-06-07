@@ -1,0 +1,7 @@
+numbers = [10, 20, 50, 46, 35,70,23,62]
+
+for element in numbers:
+    if element % 2 == 0:
+        print(element, "is even")
+    else:
+        print(element, "is odd")
