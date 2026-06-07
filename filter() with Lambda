@@ -1,0 +1,5 @@
+a = [10, 100, 20, 30, 80, 60, 65, 83]
+
+result = list(filter(lambda n: n >= 60, a))
+
+print(result)
