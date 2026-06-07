@@ -1,0 +1,9 @@
+a = []
+
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    k = input("Enter element: ")
+    a.append(k)
+
+print(a)
