@@ -1,0 +1,8 @@
+a = [10, 100, 20, 30, 80, 60, 65, 83]
+
+def inc(n):
+    return n + 2
+
+result = list(map(inc, a))
+
+print(result)
