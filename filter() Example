@@ -1,0 +1,8 @@
+a = [10, 100, 20, 30, 80, 60, 65, 83]
+
+def high_marks(n):
+    return n >= 60
+
+result = list(filter(high_marks, a))
+
+print(result)
